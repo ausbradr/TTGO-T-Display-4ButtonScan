@@ -91,6 +91,14 @@ if(keypadtotal==200){
   gfx.fillScreen(TFT_YELLOW);
 }
 
+  
+  
+  //You can also call the function keypadcheckonce, then test the keypadtotal with those if statements you see above
+  //if you intend to run your own loop that involves running your own background tasks. Just be sure to include the
+  //if's to check the keypadtotal to allow the loop to be exited from as needed. 
+  
+  
+  
 }
 
 
